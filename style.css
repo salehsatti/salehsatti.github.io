@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+article, header, main, nav, section{
+display: block;
+}
+
+html, body, ul, li, a, p,
+article, header, main, nav, section{
+padding: 0;
+margin: 0;
+}
+
+.banner {
+background-color: #11233b;
+color: white;
+padding: 10px 20px;
+}
+
+body {
+width: 960px;
+margin-right: auto;
+margin-left: auto;
+margin-bottom: 5px;
+margin-top: 5px;
+background-color: #f0f0f0;
+font-family: Helvetica, Arial, sans-serif;
+font-size: 15px;
+line-height: 1.5;
+}
+
+main{
+width: 640px;
+margin-top: 10px;
+margin-bottom: 10px;
+float: left;
+}
+
+nav{
+padding: 1px;
+margin-top: 5px;
+}
+
+li a{
+color : blue;
+}
+
+li{
+display: inline;
+}
+
+aside{
+float:right;
+}
+
+footer{
+margin-top:50px;
+clear:both;
+}
+
+section{
+margin-top: 40px;
+margin-right: 20px;
+}
